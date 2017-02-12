@@ -11,7 +11,6 @@ gray: #cccccc; rgb(204,204,204)
 body {
 	font-family: 'Catamaran', sans-serif;
 	font-size: 22px;
-	color: red;
 	line-height: 34px;
 	background: #466675;
 	font-weight: bold;
@@ -31,12 +30,17 @@ p {
 }
 
 .navbar-brand,
-.nav a {
+.nav a,
+.dropdown-menu {
 	font-size: 22px;
 	color: #fac8bf !important;
-  background: #6a8d9d !important;
-  padding-top: 33px !important;
-  height: 80px;
+	background: #6a8d9d !important;
+	padding-top: 33px !important;
+	height: 80px;
+}
+
+.dropdown-menu {
+	padding: 0;
 }
 
 .navbar-brand {
@@ -54,7 +58,11 @@ p {
 
 .navbar-toggle {
 	background: #466675;
-	border: 0;			/*come back to this*/
+}
+
+.navbar-toggle,
+.navbar-collapse {
+	border: 0;
 }
 
 /*-----------------PANELS------------------*/
