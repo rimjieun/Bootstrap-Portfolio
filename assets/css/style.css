@@ -1,0 +1,189 @@
+/*PALETTE:
+
+pink: #fac8bf; rgb(250,200,191)
+light blue: #94fffc; rgb(148,255,252)
+blue: #6a8d9d; rgb(106,141,157)
+dark blue: #466675; rgb(70,102,117)
+gray: #cccccc; rgb(204,204,204)
+
+*/
+
+body {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 22px;
+	line-height: 34px;
+	background: #466675;
+	font-weight: bold;
+}
+
+p {
+	font-size: 18px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+
+/*-----------------NAVBAR-----------------*/
+
+.navbar-default {
+	background: #6a8d9d;
+	border-bottom: 3px solid rgba(148,255,252,0.3);
+}
+
+.navbar-brand,
+.nav a,
+.dropdown-menu {
+	font-size: 22px;
+	color: #fac8bf !important;
+	background: #6a8d9d !important;
+	padding-top: 33px !important;
+	height: 80px;
+}
+
+.dropdown-menu {
+	padding: 0;
+}
+
+.navbar-brand {
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	left: 3px;
+}
+
+.nav a:focus,
+.nav a:hover,
+.nav a:active {
+	background: rgba(148,255,252,0.3) !important;
+}
+
+.navbar-toggle {
+	background: #466675;
+}
+
+.navbar-toggle,
+.navbar-collapse {
+	border: 0;
+}
+
+/*-----------------PANELS------------------*/
+
+.panel-default,
+.panel-heading {
+	border: 0;
+	color: #466675 !important;
+}
+
+.panel-default {
+	background: rgba(250,200,191,0.5);
+}
+
+.panel-heading {
+	background: rgba(250,200,191,0.6) !important;
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+/*-----------------ABOUT PAGE-----------------*/
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+.portrait {
+	width: 220px;
+	height: auto;
+	float: left;
+	margin-top: 8px;
+	margin-right: 15px;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+
+/*-----------------PORTFOLIO PAGE-----------------*/
+
+.project {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.project img {
+  opacity: .7;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.project h3 {
+  position: absolute;
+  bottom: 20px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
+  color: #466675;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  background: rgba(204,204,204,0.9);
+}
+
+/*-----------------CONTACT PAGE-----------------*/
+
+.form-group {
+	line-height: 0;
+	margin: 20px 0 40px;
+}
+
+.form-control {
+	width: 98%;
+	margin: 0 auto;
+}
+
+textarea, {
+	position: relative;
+	top: 5px;
+}
+
+.btn {
+	float: right;
+	position: relative;
+	right: 7px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #466675;
+	position: relative;
+	background: rgba(250,200,191,0.7);
+	border: 0;
+}
+
+.btn:focus,
+.btn:hover,
+.btn:active {
+	background: rgba(148,255,252,0.3) !important;
+}
+
+/*-----------------SIDEBAR-----------------*/
+
+.social {
+	width: 100px;
+	height: auto;
+	background: #ffffff;
+	margin-right: 6px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+
+/*-----------------FOOTER-----------------*/
+
+.footer {
+	margin-top: 40px;
+	text-align: center;
+	color: #466675;
+	background: #6a8d9d;
+	height: 80px;
+	padding-top: 25px;
+	font-size: 18px;
+	font-weight: normal;
+	border-top: 3px solid rgba(148,255,252,0.3);
+}
